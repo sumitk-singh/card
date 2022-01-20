@@ -1,0 +1,76 @@
+/* variables */
+
+:root {
+    --primary: rgb(50, 50, 255);
+    --secondary: rgb(206, 206, 206);
+    --success: green;
+    --danger: red;
+    --warning: yellow;
+    --info: rgb(11, 209, 223);
+    --light: white;
+    --dark: rgb(114, 114, 114);
+}
+
+
+/* --- */
+
+h2 {
+    text-align: center;
+}
+
+
+/* basic card */
+
+.basic-card-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 350px;
+    margin-left: 38%;
+}
+
+.card-title,
+.card-content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-btn {
+    background-color: var(--primary);
+    color: white;
+    height: 35px;
+    width: fit-content;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.card-img {
+    height: 250px;
+}
+
+
+/* --- */
+
+
+/* 2. Basic w/ Text over Media */
+
+.text-over-img {
+    bottom: 38px;
+    margin-left: 10px;
+    position: relative;
+}
+
+
+/* --- */
+
+
+/* 3. Basic w/ card header */
+
+.card-header {
+    height: 100px;
+    margin-left: 10px;
+}
+
+
+/* --- */
